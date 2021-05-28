@@ -1,0 +1,15 @@
+{
+  "elements":
+  [
+    {"type": "ValidationTextBox", "name": "TCPIP", "caption": "WiFi Controller IP:"},
+    {"type": "Select", "name": "RGB", "caption": "RGB pin assignment:",
+    "options": [
+      {"label": "RGB -> GRB", "value": "012"},
+      {"label": "RGB -> BRG", "value": "021"}]}
+  ],
+  "status":
+  [
+    {"code": 102, "icon": "active",  "caption": "LED Controller active."},
+    {"code": 201, "icon": "error", "caption": "Wrong WiFi controller IP format (e.g. 127.0.0.1 - no HTTP://)" }
+  ]
+}

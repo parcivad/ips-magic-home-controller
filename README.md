@@ -13,6 +13,7 @@ Dieses Modul ist ***kopiert*** von @Wilkware, weil es um die Funktion `SetCustom
 5. [Statusvariablen und Profile](#5-statusvariablen-und-profile)
 6. [WebFront](#6-webfront)
 7. [PHP-Befehlsreferenz](#7-php-befehlsreferenz)
+8. [Versionshistorie](#8-versionshistorie)
 
 ### 1. Funktionsumfang
 
@@ -77,15 +78,48 @@ Setzt den Farbwert auf $Color. Die Funktion liefert keinerlei Rückgabewert.
 Setzt den Anzeigemodus auf auf $Mode. Die Funktion liefert keinerlei Rückgabewert.
 
 `void MHC_SetCustomPattern(int $InstanzID, int $Speed, string $Transition_Type, array $color_list );`  
-Setzt den gewünschten Modus, Geschwindigkeit und Farbkombination. Diese Funktion wird nicht in den Variablen
+Setzt den gewünschten Modus, Helligkeit, Geschwindigkeit und Farbkombination. Diese Funktion wird nicht in den Variablen
 aufgeführt, dass heißt das sei nur im Code ausgelöst werden kann:
 ```php
 // Transition: fade // jump // strobe
 // Colors : [ [r,g,b], [r.g.b], ... ]
-MHC_SetCustomPattern( 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
+// Brightness: 0-100
+MHC_SetCustomPattern( 100, 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
 ```
+
+### 8. Versionshistorie
+
+v1.2.20190812
+
+* _NEU_: Anpassungen für Module Store
+* _NEU_: Vereinheitlichungen, Umstellung auf Libs
+* _FIX_: Fehler in Profilen korrigiert
+
+v1.1.20190225
+
+* _NEU_: Umbenennungen, Vereinheitlichungen, StyleCI uvm.
+
+v1.0.20180415
+
+* _NEU_: Initialversion
+
+### Danksagung
+
+Dieses Modul basiert auf dem Modul von ...
+
+* _Spoosie_ : Modul _KH\_LEDWiFiController_ <https://github.com/Spoosie/KH_LEDWiFiController>
+
+Vielen Dank für die hervorragende und tolle Arbeit!
 
 ### Entwickler
 
 * Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
-* Timur Stegmann ([@parcivad](https://github.com/parcivad))
+
+### Spenden
+
+Die Software ist für die nicht kommzerielle Nutzung kostenlos, Schenkungen als Unterstützung für den Entwickler bitte hier:  
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166" target="_blank"><img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" /></a>
+
+### Lizenz
+
+[![Licence](https://licensebuttons.net/i/l/by-nc-sa/transparent/00/00/00/88x31-e.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)

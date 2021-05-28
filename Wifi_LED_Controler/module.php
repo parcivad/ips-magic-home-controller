@@ -191,14 +191,15 @@ class WifiLEDControler extends IPSModule
     /**
      * Send color data. This part is by @parcivad
      */
-    function SetCustomPattern( int $speed, string $transition_type, array $color_list ) {
+    function SetCustomPattern( int $brightness, int $speed, string $transition_type, array $color_list ) {
         // Call for custom pattern
         $data = [ 0x51 ];
+        $brightness /= 100;
 
         // COLORS - - - Add colors to the $data [max. of 16 colors, the empty slots must be filled by 1, 2, 3. Between each color (rgb) must be a 0 to split]
         for($i = 0; $i < 16; $i++) {
             if ( isset( $color_list[$i] ) ) {
-                array_push( $data, $color_list[$i][0], $color_list[$i][1], $color_list[$i][2], 0);
+                array_push( $data, $color_list[$i][0] * $brightness, $color_list[$i][1] * $brightness, $color_list[$i][2] * $brightness, 0);
             } else {
                 array_push( $data, 1, 2, 3, 0 );
             }
@@ -218,7 +219,7 @@ class WifiLEDControler extends IPSModule
                 array_push( $data, 0x3c);
                 break;
         }
-        // BRIGHTNESS - - - Add Brightness to the whole effect, this option can't be set or changed!
+        // END
         array_push( $data, 0xff, 0x0f );
         $this->SendData( $data );
     }

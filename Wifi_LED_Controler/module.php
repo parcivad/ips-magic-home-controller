@@ -220,7 +220,7 @@ class WifiLEDControler extends IPSModule
         }
         // BRIGHTNESS - - - Add Brightness to the whole effect, this option can't be set or changed!
         array_push( $data, 0xff, 0x0f );
-        SendData( $data );
+        $this->SendData( $data );
     }
 
     /**

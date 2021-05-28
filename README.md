@@ -13,7 +13,6 @@ Dieses Modul ist ***kopiert*** von @Wilkware, weil es um die Funktion `SetCustom
 5. [Statusvariablen und Profile](#5-statusvariablen-und-profile)
 6. [WebFront](#6-webfront)
 7. [PHP-Befehlsreferenz](#7-php-befehlsreferenz)
-8. [Versionshistorie](#8-versionshistorie)
 
 ### 1. Funktionsumfang
 

@@ -84,7 +84,7 @@ aufgeführt, dass heißt das sei nur im Code ausgelöst werden kann:
 // Transition: fade // jump // strobe
 // Colors : [ [r,g,b], [r.g.b], ... ]
 // Brightness: 0-100
-MHC_SetCustomPattern( 100, 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
+MHC_SetCustomPattern( instaceID, 100, 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
 ```
 
 ### 8. Versionshistorie

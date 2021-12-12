@@ -117,6 +117,8 @@ Vielen Dank für die hervorragende und tolle Arbeit!
 
 ### Spenden
 
+***DIE SPENDEN GEHEN AN HEIKO WILKNITZ***
+
 Die Software ist für die nicht kommzerielle Nutzung kostenlos, Schenkungen als Unterstützung für den Entwickler bitte hier:  
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166" target="_blank"><img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" /></a>
 

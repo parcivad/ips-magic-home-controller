@@ -195,7 +195,6 @@ class WifiLEDControler extends IPSModule
         // Call for custom pattern
         $data = [ 0x51 ];
         $brightness /= 100;
-        $speed *= $brightness * 5;
 
         // COLORS - - - Add colors to the $data [max. of 16 colors, the empty slots must be filled by 1, 2, 3. Between each color (rgb) must be a 0 to split]
         for($i = 0; $i < 16; $i++) {

@@ -84,7 +84,7 @@ aufgeführt, dass heißt das sei nur im Code ausgelöst werden kann:
 // Transition: fade // jump // strobe
 // Colors : [ [r,g,b], [r.g.b], ... ]
 // Brightness: 0-100
-MHC_SetCustomPattern( 100, 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
+MHC_SetCustomPattern( instaceID, 100, 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
 ```
 
 ### 8. Versionshistorie
@@ -115,6 +115,13 @@ Vielen Dank für die hervorragende und tolle Arbeit!
 
 * Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
 * Timur Stegmann ([@parcivad](https://github.com/parcivad))
+
+### Spenden
+
+***DIE SPENDEN GEHEN AN HEIKO WILKNITZ***
+
+Die Software ist für die nicht kommzerielle Nutzung kostenlos, Schenkungen als Unterstützung für den Entwickler bitte hier:  
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166" target="_blank"><img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" /></a>
 
 ### Lizenz
 

@@ -1,5 +1,5 @@
-[![Version](https://img.shields.io/badge/Symcon-PHP--Modul-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
-[![Version](https://img.shields.io/badge/Symcon%20Version-5.0%20%3E-blue.svg)](https://www.symcon.de/produkt/)
+[![Version](https://img.shields.io/badge/Symcon-PHP--Modul-red.svg?style=flat-square)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
+[![Version](https://img.shields.io/badge/Symcon%20Version-5.0%20%3E-blue.svg?style=flat-square)](https://www.symcon.de/produkt/)
 # MHC - Magic Home Controller `copied`
 
 Dieses Modul ist ***kopiert*** von @Wilkware, weil es um die Funktion `SetCustomPattern()` erweitert wurde. IP-Symcon Modul für die Ansteuerung von WiFi LED Controller der Firma _Magic Home_.
@@ -114,11 +114,7 @@ Vielen Dank für die hervorragende und tolle Arbeit!
 ### Entwickler
 
 * Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
-
-### Spenden
-
-Die Software ist für die nicht kommzerielle Nutzung kostenlos, Schenkungen als Unterstützung für den Entwickler bitte hier:  
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166" target="_blank"><img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" /></a>
+* Timur Stegmann ([@parcivad](https://github.com/parcivad))
 
 ### Lizenz
 

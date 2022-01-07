@@ -1,5 +1,5 @@
-[![Version](https://img.shields.io/badge/Symcon-PHP--Modul-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
-[![Version](https://img.shields.io/badge/Symcon%20Version-5.0%20%3E-blue.svg)](https://www.symcon.de/produkt/)
+[![Version](https://img.shields.io/badge/Symcon-PHP--Modul-red.svg?style=flat-square)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
+[![Version](https://img.shields.io/badge/Symcon%20Version-5.0%20%3E-blue.svg?style=flat-square)](https://www.symcon.de/produkt/)
 # MHC - Magic Home Controller `copied`
 
 Dieses Modul ist ***kopiert*** von @Wilkware, weil es um die Funktion `SetCustomPattern()` erweitert wurde. IP-Symcon Modul für die Ansteuerung von WiFi LED Controller der Firma _Magic Home_.

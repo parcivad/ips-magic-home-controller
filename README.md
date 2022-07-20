@@ -114,14 +114,7 @@ Vielen Dank für die hervorragende und tolle Arbeit!
 ### Entwickler
 
 * Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
-
-### Spenden
-
-***DIE SPENDEN GEHEN AN HEIKO WILKNITZ***
-
-Die Software ist für die nicht kommzerielle Nutzung kostenlos, Schenkungen als Unterstützung für den Entwickler bitte hier:  
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166" target="_blank"><img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" /></a>
-
+* Parcivad ([@parcivad](https://github.com/parcivad))
 ### Lizenz
 
 [![Licence](https://licensebuttons.net/i/l/by-nc-sa/transparent/00/00/00/88x31-e.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)

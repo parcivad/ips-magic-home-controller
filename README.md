@@ -65,19 +65,27 @@ Man kann die Statusvariaben direkt im WebFront verlinken.
 
 ### 7. PHP-Befehlsreferenz
 
-`void MHC_SetBrightness(int $InstanzID, int $Brightness);`  
+```php
+MHC_SetPower(int $InstanzID, bool $Power);
+```
 Setzt die Helligkeit auf $Brightness. Die Funktion liefert keinerlei Rückgabewert.
 
-`void MHC_SetColor(int $InstanzID, int $Color);`  
+```php
+MHC_SetBrightness(int $InstanzID, int $Brightness);
+```
+Setzt die Helligkeit auf $Brightness. Die Funktion liefert keinerlei Rückgabewert.
+
+```php
+MHC_SetColor(int $InstanzID, int $Color);
+```
 Setzt den Farbwert auf $Color. Die Funktion liefert keinerlei Rückgabewert.
 
-`void MHC_SetCustomPatternColor(int $InstanzID, int $Color);`  
-Setzt den Farbwert auf $Color. Die Funktion liefert keinerlei Rückgabewert.
-
-`void MHC_SetMode(int $InstanzID, int $Mode);`  
+```php
+MHC_SetMode(int $InstanzID, int $Mode);
+```
 Setzt den Anzeigemodus auf auf $Mode. Die Funktion liefert keinerlei Rückgabewert.
 
-`void MHC_SetCustomPattern(int $InstanzID, int $Speed, string $Transition_Type, array $color_list );`  
+`MHC_SetCustomPattern(int $InstanzID, int $Speed, string $Transition_Type, array $color_list );`  
 Setzt den gewünschten Modus, Helligkeit, Geschwindigkeit und Farbkombination. Diese Funktion wird nicht in den Variablen
 aufgeführt, dass heißt das sei nur im Code ausgelöst werden kann:
 ```php
@@ -86,22 +94,6 @@ aufgeführt, dass heißt das sei nur im Code ausgelöst werden kann:
 // Brightness: 0-100
 MHC_SetCustomPattern( instaceID, 100, 150, 'fade', [ [255,0,0], [0,255,0], [0,0,255] ]);
 ```
-
-### 8. Versionshistorie
-
-v1.2.20190812
-
-* _NEU_: Anpassungen für Module Store
-* _NEU_: Vereinheitlichungen, Umstellung auf Libs
-* _FIX_: Fehler in Profilen korrigiert
-
-v1.1.20190225
-
-* _NEU_: Umbenennungen, Vereinheitlichungen, StyleCI uvm.
-
-v1.0.20180415
-
-* _NEU_: Initialversion
 
 ### Danksagung
 

@@ -68,7 +68,7 @@ Man kann die Statusvariaben direkt im WebFront verlinken.
 ```php
 MHC_SetPower(int $InstanzID, bool $Power);
 ```
-Setzt die Helligkeit auf $Brightness. Die Funktion liefert keinerlei Rückgabewert.
+Setzt den An/Aus Zustand der LED.
 
 ```php
 MHC_SetBrightness(int $InstanzID, int $Brightness);

@@ -114,7 +114,7 @@ Vielen Dank für die hervorragende und tolle Arbeit!
 ### Entwickler
 
 * Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
-* Parcivad ([@parcivad](https://github.com/parcivad))
+* Timur ([@parcivad](https://github.com/parcivad))
 ### Lizenz
 
 [![Licence](https://licensebuttons.net/i/l/by-nc-sa/transparent/00/00/00/88x31-e.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)

@@ -127,6 +127,7 @@ class WifiLEDControler extends IPSModule
         switch ($ident) {
             // Switch Power On/Off
             case 'Power':
+                SetValue($this->GetIDForIdent($ident), $value);
                 $on = [0x71, 0x23, 0x0f];
                 $off = [0x71, 0x24, 0x0f];
                 if ($value) {
@@ -134,7 +135,6 @@ class WifiLEDControler extends IPSModule
                 } else {
                     $this->SendData($off);
                 }
-                SetValue($this->GetIDForIdent($ident), $value);
                 break;
             // Set Speed value
             case 'Speed':
@@ -143,10 +143,10 @@ class WifiLEDControler extends IPSModule
                 break;
             // Set Display Mode
             case 'Mode':
+                SetValue($this->GetIDForIdent($ident), $value);
                 IPS_SetDisabled($this->GetIDForIdent('Speed'), !$value);
                 IPS_SetDisabled($this->GetIDForIdent('Color'), $value);
                 IPS_SetDisabled($this->GetIDForIdent('Brightness'), $value);
-                SetValue($this->GetIDForIdent($ident), $value);
                 // Manual mode.
                 if ($value == 0) {
                     $this->SendColor();

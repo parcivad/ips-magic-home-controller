@@ -30,7 +30,7 @@ Wenn jemand noch weitere kennt, bitte einfach bei mir melden!
 
 * Über den Modul Store das Modul 'Magic Home Controller' installieren.
 * Alternativ Über das Modul-Control folgende URL hinzufügen.  
-`https://github.com/Wilkware/IPSymconMHC` oder `git://github.com/Wilkware/IPSymconMHC.git`
+  `https://github.com/Wilkware/IPSymconMHC` oder `git://github.com/Wilkware/IPSymconMHC.git`
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 

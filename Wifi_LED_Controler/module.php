@@ -158,6 +158,7 @@ class WifiLEDControler extends IPSModule
                 break;
             case 'Color':
             case 'Brightness':
+                SetValue('Power', boolval($value));
                 SetValue($this->GetIDForIdent($ident), $value);
                 $this->SendColor();
                 break;
